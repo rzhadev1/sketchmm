@@ -29,18 +29,23 @@ The model for MD can be broken down into 5 distinct steps:
 <br />
 
 - Positions from initialization to end of simulation. 
+
 ![](positions.png)
 
 - Energy, kinetic energy + LJ-potentials. 
+
 ![](energy.png)
 
 - Temperature, which we fix and recalculate for at 0.5 units for simulation.
+
 ![](temp.png)
 
 - Pressure, which is probably calculated wrong.
+
 ![](pressure.png)
 
 - Maxwell-Boltzmann Distribution, measured at the last time step of simulation.
+
 ![](maxwell.png)
 
 
