@@ -1,0 +1,11 @@
+parameters:
+  epsilon: 1
+  kB: 1
+  m: 1
+  sigma: 1
+  timeStep: 1.0e-2
+boxSize: 40
+sampleInterval: 5
+rescaleInterval: 10
+targetTemp: .5
+N: 100
